@@ -12,7 +12,7 @@ def get_pokemon_data(pokemon_id):
         return None
 
 
-    pokemon_id = "pikachu"
+pokemon_id = "pikachu"
 pokemon_data = get_pokemon_data(pokemon_id)
 if pokemon_data:
     print(json.dumps(pokemon_data, indent=4))
